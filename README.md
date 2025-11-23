@@ -55,8 +55,7 @@
 This project is developed and maintained by:
 
 - **Vaishnavi Saw**
-- **Ashutosh Kumar Sonu**
-- **Satvik Chauhan**
+
 
 ---
 
