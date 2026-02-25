@@ -1,77 +1,107 @@
-# 💻 AI Code Debugger
+# 🐞 BugWise – AI-Powered Code Debugger
 
-**AI Code Debugger** is a smart, interactive web-based tool designed to help developers write, debug, and run code more efficiently. It integrates AI capabilities with real-time code execution to provide meaningful suggestions, error explanations, and enhanced code understanding — all within a clean, user-friendly interface.
+## 📌 Overview
 
----
+BugWise is an AI-powered code debugging platform that supports multi-language code execution with real-time feedback and intelligent explanations.
 
-## 🔧 Features
-
-- **Multi-language Support**: Debug and run code in C++, Python, Java, and more.
-- **AI-Powered Debugging**: Uses Google Gemini API to analyze your code, explain errors, and suggest improvements.
-- **Real-Time Execution**: Integrates Judge0 API to compile and execute code on the fly.
-- **Inline Error Detection**: Highlights possible syntax and logical errors before running the code.
-- **Code Suggestions**: AI suggests optimal code practices and potential fixes.
-- **Dark/Light Mode Toggle**: Easily switch themes for a better user experience.
-- **File Upload Support**: Allows users to upload code files for analysis.
+The system integrates execution and AI analysis APIs to help users understand errors, optimize code, and improve programming logic efficiently.
 
 ---
 
-## 🧠 Tech Stack
+## 🚀 Features
 
-- **Frontend**: HTML5, CSS3, JavaScript  
-- **Backend/Execution**: Judge0 API  
-- **AI Integration**: Google Gemini API  
-- **Deployment**: Local or Web-hosted environment (can be extended for cloud deployment)
-
----
-
-## 📂 How to Use
-
-1. Clone this repository by running the following command in your terminal:  
-   `git clone https://github.com/yourusername/ai-code-debugger.git`
-
-2. Open `index.html` in your preferred browser.
-
-3. Select a language from the dropdown menu.
-
-4. Write or upload your code in the editor.
-
-5. Click on **"Debug Code"** or **"Run Code"** to analyze or execute your code.
-
-6. View the output and AI-generated suggestions instantly.
+- 💻 Multi-language code execution  
+- ⚡ Real-time program output  
+- 🧠 AI-generated code explanations  
+- 🔍 Error detection and debugging assistance  
+- 🌐 Web-based interactive interface  
+- 📦 Modular API integration  
 
 ---
 
-## 📸 Screenshot
+## 🏗️ System Architecture
 
-![Code Editor Component](https://github.com/user-attachments/assets/a8fa9158-5774-49ee-bbab-728f16c7e19c)
-![Suggestion Panel](https://github.com/user-attachments/assets/599ddb32-7b75-4efe-abef-85c0138c9e44)
-
-
----
-
-## 👥 Developers
-
-This project is developed and maintained by:
-
-- **Vaishnavi Saw**
-
+1. User writes code in the browser editor  
+2. Code is sent to Judge0 API for execution  
+3. Execution output or error is returned  
+4. Code is sent to Gemini API for explanation  
+5. AI-generated feedback is displayed to the user  
 
 ---
 
-## 🚀 Future Enhancements
+## 🧰 Tech Stack
 
-- Interactive fix suggestions with clickable actions.  
-- Debug history and code snapshot comparisons.  
-- AI Mentor Mode to teach best practices.  
-- Logical error prediction before execution.  
-- Multi-language translation and documentation support.
+### Frontend
+- HTML5  
+- CSS3  
+- JavaScript  
+
+### APIs Integrated
+- Judge0 API (Code Execution Engine)  
+- Google Gemini API (AI Code Explanation)  
+
+### Tools
+- Git  
+- Postman  
 
 ---
 
+## 🔄 How It Works
+User Code → Judge0 API → Execution Result →
+Gemini API → Explanation & Suggestions → Display to User
 
 ---
 
-## 💬 Feedback
+## 🧠 Supported Capabilities
 
-We’d love to hear your thoughts and suggestions! Feel free to open an issue or contribute via pull requests.
+- Compile & execute multiple programming languages  
+- Identify syntax and runtime errors  
+- Generate AI-based explanation of code logic  
+- Suggest improvements and optimizations  
+
+---
+
+## 🔒 Limitations
+
+- Execution time depends on external API response  
+- AI explanations rely on API accuracy  
+- No offline execution support  
+
+---
+
+## 📈 Future Enhancements
+
+- User authentication & history tracking  
+- Code complexity analysis  
+- Performance benchmarking  
+- Dark mode UI  
+- Custom AI fine-tuning for debugging  
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/your-username/bugwise.git
+cd bugwise
+```
+### 2️⃣ Configure API Keys
+```
+Create a .env file and add:
+
+JUDGE0_API_KEY=your_key_here
+GEMINI_API_KEY=your_key_here
+```
+
+### 3️⃣ Run the Application
+```
+Open index.html in your browser
+(or run using a local development server)
+```
+
+## 👩‍💻 Author
+
+Vaishnavi Saw
+
+AI & Full-Stack Enthusiast
